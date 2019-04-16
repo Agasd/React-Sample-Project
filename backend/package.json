@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "API for Contento's test project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/nodemon server.js --exec babel-node --"
+  },
+  "author": "B. M. Agardi",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "lorem-ipsum": "^2.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
